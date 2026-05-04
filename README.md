@@ -19,5 +19,5 @@ Proje yönergesinde istenen spesifik parametreler model içerisine şu şekilde 
 Bu projede video, $M \times N \times 3$ boyutlarında (RGB) ardışık matrisler dizisi olarak ele alınmıştır. Segmentasyon işlemi esnasında arka planın silinmesi `np.zeros_like` ile oluşturulan sıfırlar matrisi üzerine, sadece eşik değerini (threshold) geçen piksellerin izdüşümünün alınmasıyla (maskeleme) gerçekleştirilmiştir.
 
 ## 📂 Dosya Yapısı
-* `segmentasyon_kodlari.ipynb`: Model eğitimi, eşikleme ve kernel işlemlerinin yapıldığı ana Google Colab defteri.
+* `Video_Segmentasyon.ipynb`: Model eğitimi, eşikleme ve kernel işlemlerinin yapıldığı ana Google Colab defteri.
 * `sonuc_videosu.mp4`: Parametrelerin uygulanmasıyla elde edilen, arka planın siyah (sıfır matrisi) olduğu ve sadece hareketli araçların tespit edildiği çıktı videosu.
